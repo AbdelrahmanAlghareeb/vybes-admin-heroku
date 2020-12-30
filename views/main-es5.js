@@ -421,7 +421,7 @@
           ɵ2 = function ɵ2() {
         return Promise.all(
         /*! import() | modules-repair-requests-management-repair-requests-management-module-ngfactory */
-        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-hardware-parts-hardware-parts~3dcefb12"), __webpack_require__.e("default~modules-lookup-lookup-module-ngfactory~modules-repair-requests-management-repair-requests-ma~b0f2da2c"), __webpack_require__.e("modules-repair-requests-management-repair-requests-management-module-ngfactory")]).then(__webpack_require__.bind(null,
+        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-admins-admins-module-ngfactor~7e4eec66"), __webpack_require__.e("default~modules-lookup-lookup-module-ngfactory~modules-repair-requests-management-repair-requests-ma~b0f2da2c"), __webpack_require__.e("modules-repair-requests-management-repair-requests-management-module-ngfactory")]).then(__webpack_require__.bind(null,
         /*! ./modules/repair-requests-management/repair-requests-management.module.ngfactory */
         "./src/app/modules/repair-requests-management/repair-requests-management.module.ngfactory.js")).then(function (m) {
           return m.RepairRequestsManagementModuleNgFactory;
@@ -430,7 +430,7 @@
           ɵ3 = function ɵ3() {
         return Promise.all(
         /*! import() | modules-order-management-order-management-module-ngfactory */
-        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-hardware-parts-hardware-parts~3dcefb12"), __webpack_require__.e("modules-order-management-order-management-module-ngfactory")]).then(__webpack_require__.bind(null,
+        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-admins-admins-module-ngfactor~7e4eec66"), __webpack_require__.e("modules-order-management-order-management-module-ngfactory")]).then(__webpack_require__.bind(null,
         /*! ./modules/order-management/order-management.module.ngfactory */
         "./src/app/modules/order-management/order-management.module.ngfactory.js")).then(function (m) {
           return m.OrderManagementModuleNgFactory;
@@ -439,7 +439,7 @@
           ɵ4 = function ɵ4() {
         return Promise.all(
         /*! import() | modules-lookup-lookup-module-ngfactory */
-        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-hardware-parts-hardware-parts~3dcefb12"), __webpack_require__.e("default~modules-lookup-lookup-module-ngfactory~modules-repair-requests-management-repair-requests-ma~b0f2da2c"), __webpack_require__.e("modules-lookup-lookup-module-ngfactory")]).then(__webpack_require__.bind(null,
+        [__webpack_require__.e("default~components-accessories-accessories-module-ngfactory~components-admins-admins-module-ngfactor~7e4eec66"), __webpack_require__.e("default~modules-lookup-lookup-module-ngfactory~modules-repair-requests-management-repair-requests-ma~b0f2da2c"), __webpack_require__.e("modules-lookup-lookup-module-ngfactory")]).then(__webpack_require__.bind(null,
         /*! ./modules/lookup/lookup.module.ngfactory */
         "./src/app/modules/lookup/lookup.module.ngfactory.js")).then(function (m) {
           return m.LookupModuleNgFactory;
@@ -2081,7 +2081,7 @@
       }
 
       function View_AppMenuComponent_Host_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "app-menu", [], null, null, null, View_AppMenuComponent_0, RenderType_AppMenuComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 114688, null, 0, _app_menu_component__WEBPACK_IMPORTED_MODULE_7__["AppMenuComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_3__["AppMainComponent"]], null, null)], function (_ck, _v) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "app-menu", [], null, null, null, View_AppMenuComponent_0, RenderType_AppMenuComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 114688, null, 0, _app_menu_component__WEBPACK_IMPORTED_MODULE_7__["AppMenuComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_3__["AppMainComponent"], _app_menu_service__WEBPACK_IMPORTED_MODULE_5__["MenuService"]], null, null)], function (_ck, _v) {
           _ck(_v, 1, 0);
         }, null);
       }
@@ -2112,10 +2112,11 @@
       });
 
       var AppMenuComponent = /*#__PURE__*/function () {
-        function AppMenuComponent(app) {
+        function AppMenuComponent(app, MenuService) {
           _classCallCheck(this, AppMenuComponent);
 
           this.app = app;
+          this.MenuService = MenuService;
         }
 
         _createClass(AppMenuComponent, [{
@@ -2123,7 +2124,23 @@
           value: function ngOnInit() {
             var _this2 = this;
 
-            this.model = [{
+            this.MenuService.getGetPendingCounts().toPromise().then(function (data) {
+              _this2.modelBuilder({
+                pendingBusinessAccounts: data.data.pendingBusinessAccounts,
+                pendingOrderRequests: data.data.pendingOrderRequests,
+                pendingRepairRequests: data.data.pendingRepairRequests
+              });
+            });
+          }
+        }, {
+          key: "modelBuilder",
+          value: function modelBuilder(_ref) {
+            var _this3 = this;
+
+            var pendingBusinessAccounts = _ref.pendingBusinessAccounts,
+                pendingRepairRequests = _ref.pendingRepairRequests,
+                pendingOrderRequests = _ref.pendingOrderRequests;
+            return this.model = [{
               label: 'Dashboard',
               icon: 'dashboard',
               routerLink: ['/']
@@ -2132,11 +2149,25 @@
               icon: 'people',
               items: [{
                 label: 'Basic Users',
-                icon: 'tune'
+                icon: 'tune',
+                routerLink: ['/user/basic/list']
               }, {
                 label: 'Business Users',
                 icon: 'tune',
-                badge: '1'
+                badge: "".concat(pendingBusinessAccounts),
+                routerLink: ['/user/business/list']
+              }, {
+                label: 'Admins',
+                icon: 'tune',
+                routerLink: ['/user/admin/list']
+              }, {
+                label: 'Moderators',
+                icon: 'tune',
+                routerLink: ['/user/moderator/list']
+              }, {
+                label: 'Super Admins ',
+                icon: 'tune',
+                routerLink: ['/user/superadmin/list']
               }]
             }, {
               label: 'Product Management',
@@ -2236,7 +2267,7 @@
               }, {
                 label: 'Repair Requests',
                 icon: 'tune',
-                badge: '1',
+                badge: "".concat(pendingRepairRequests),
                 routerLink: ['/repair-requests/list']
               }]
             }, {
@@ -2245,7 +2276,7 @@
               items: [{
                 label: 'Order Requests',
                 icon: 'tune',
-                badge: '1',
+                badge: "".concat(pendingOrderRequests),
                 routerLink: ['/order-requests/list']
               }]
             }, {
@@ -2260,61 +2291,61 @@
                   label: 'Blue - Amber',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('blue');
+                    _this3.changeTheme('blue');
                   }
                 }, {
                   label: 'Teal - Amber',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('teal');
+                    _this3.changeTheme('teal');
                   }
                 }, {
                   label: 'Blue Grey - Green',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('blue-grey');
+                    _this3.changeTheme('blue-grey');
                   }
                 }, {
                   label: 'Cyan - Yellow',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('cyan');
+                    _this3.changeTheme('cyan');
                   }
                 }, {
                   label: 'Dark - Blue',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('dark-blue');
+                    _this3.changeTheme('dark-blue');
                   }
                 }, {
                   label: 'Dark - Green',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('dark-green');
+                    _this3.changeTheme('dark-green');
                   }
                 }, {
                   label: 'Light Blue - Green',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('light-blue');
+                    _this3.changeTheme('light-blue');
                   }
                 }, {
                   label: 'Indio - Cyan',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('indigo');
+                    _this3.changeTheme('indigo');
                   }
                 }, {
                   label: 'Deep Purple - Pink',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('deep-purple');
+                    _this3.changeTheme('deep-purple');
                   }
                 }, {
                   label: 'Green - Yellow',
                   icon: 'brush',
                   command: function command(event) {
-                    _this2.changeTheme('green');
+                    _this3.changeTheme('green');
                   }
                 }]
               }]
@@ -2390,11 +2421,36 @@
       var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
       /*! rxjs */
       "./node_modules/rxjs/_esm2015/index.js");
+      /* harmony import */
+
+
+      var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! rxjs/operators */
+      "./node_modules/rxjs/_esm2015/operators/index.js");
+      /* harmony import */
+
+
+      var src_environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! src/environments/environment */
+      "./src/environments/environment.ts");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/core */
+      "./node_modules/@angular/core/fesm2015/core.js");
+      /* harmony import */
+
+
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/common/http */
+      "./node_modules/@angular/common/fesm2015/http.js");
 
       var MenuService = /*#__PURE__*/function () {
-        function MenuService() {
+        function MenuService(http) {
           _classCallCheck(this, MenuService);
 
+          this.http = http;
           this.menuSource = new rxjs__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
           this.resetSource = new rxjs__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
           this.menuSource$ = this.menuSource.asObservable();
@@ -2411,12 +2467,26 @@
           value: function reset() {
             this.resetSource.next();
           }
+        }, {
+          key: "getGetPendingCounts",
+          value: function getGetPendingCounts() {
+            return this.http.get("".concat(src_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].api, "/Utils/GetPendingCounts")).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])(function (data) {
+              return data;
+            }));
+          }
         }]);
 
         return MenuService;
       }();
-      /***/
 
+      MenuService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjectable"]({
+        factory: function MenuService_Factory() {
+          return new MenuService(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]));
+        },
+        token: MenuService,
+        providedIn: "root"
+      });
+      /***/
     },
 
     /***/
@@ -2892,7 +2962,7 @@
 
       var AppMenuitemComponent = /*#__PURE__*/function () {
         function AppMenuitemComponent(app, router, cd, menuService) {
-          var _this3 = this;
+          var _this4 = this;
 
           _classCallCheck(this, AppMenuitemComponent);
 
@@ -2903,20 +2973,20 @@
           this.active = false;
           this.menuSourceSubscription = this.menuService.menuSource$.subscribe(function (key) {
             // deactivate current active menu
-            if (_this3.active && _this3.key !== key && key.indexOf(_this3.key) !== 0) {
-              _this3.active = false;
+            if (_this4.active && _this4.key !== key && key.indexOf(_this4.key) !== 0) {
+              _this4.active = false;
             }
           });
           this.menuResetSubscription = this.menuService.resetSource$.subscribe(function () {
-            _this3.active = false;
+            _this4.active = false;
           });
           this.router.events.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["filter"])(function (event) {
             return event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_0__["NavigationEnd"];
           })).subscribe(function (params) {
-            if (_this3.item.routerLink) {
-              _this3.updateActiveStateFromRoute();
+            if (_this4.item.routerLink) {
+              _this4.updateActiveStateFromRoute();
             } else {
-              _this3.active = false;
+              _this4.active = false;
             }
           });
         }
@@ -3759,7 +3829,7 @@
           return [p0_0];
         }, [_angular_router__WEBPACK_IMPORTED_MODULE_25__["ROUTER_INITIALIZER"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXsrfTokenExtractor"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_g"], [_angular_common__WEBPACK_IMPORTED_MODULE_20__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_e"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_h"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_h"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXsrfTokenExtractor"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_f"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HTTP_INTERCEPTORS"], function (p0_0) {
           return [p0_0];
-        }, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_h"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["XhrFactory"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["XhrFactory"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpBackend"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpHandler"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵHttpInterceptingHandler"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpBackend"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpHandler"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_animations__WEBPACK_IMPORTED_MODULE_27__["AnimationBuilder"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_23__["ɵBrowserAnimationBuilder"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"], _angular_common__WEBPACK_IMPORTED_MODULE_20__["DOCUMENT"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_countryservice__WEBPACK_IMPORTED_MODULE_28__["CountryService"], _demo_service_countryservice__WEBPACK_IMPORTED_MODULE_28__["CountryService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_customerservice__WEBPACK_IMPORTED_MODULE_29__["CustomerService"], _demo_service_customerservice__WEBPACK_IMPORTED_MODULE_29__["CustomerService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_eventservice__WEBPACK_IMPORTED_MODULE_30__["EventService"], _demo_service_eventservice__WEBPACK_IMPORTED_MODULE_30__["EventService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_iconservice__WEBPACK_IMPORTED_MODULE_31__["IconService"], _demo_service_iconservice__WEBPACK_IMPORTED_MODULE_31__["IconService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_nodeservice__WEBPACK_IMPORTED_MODULE_32__["NodeService"], _demo_service_nodeservice__WEBPACK_IMPORTED_MODULE_32__["NodeService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_photoservice__WEBPACK_IMPORTED_MODULE_33__["PhotoService"], _demo_service_photoservice__WEBPACK_IMPORTED_MODULE_33__["PhotoService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_productservice__WEBPACK_IMPORTED_MODULE_34__["ProductService"], _demo_service_productservice__WEBPACK_IMPORTED_MODULE_34__["ProductService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _app_menu_service__WEBPACK_IMPORTED_MODULE_35__["MenuService"], _app_menu_service__WEBPACK_IMPORTED_MODULE_35__["MenuService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_20__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_20__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_21__["ɵangular_packages_platform_browser_platform_browser_a"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgProbeToken"], function () {
+        }, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_h"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["XhrFactory"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵangular_packages_common_http_http_d"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["XhrFactory"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](6144, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpBackend"], null, [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpXhrBackend"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpHandler"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["ɵHttpInterceptingHandler"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpBackend"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"], _angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpHandler"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_animations__WEBPACK_IMPORTED_MODULE_27__["AnimationBuilder"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_23__["ɵBrowserAnimationBuilder"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"], _angular_common__WEBPACK_IMPORTED_MODULE_20__["DOCUMENT"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_countryservice__WEBPACK_IMPORTED_MODULE_28__["CountryService"], _demo_service_countryservice__WEBPACK_IMPORTED_MODULE_28__["CountryService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_customerservice__WEBPACK_IMPORTED_MODULE_29__["CustomerService"], _demo_service_customerservice__WEBPACK_IMPORTED_MODULE_29__["CustomerService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_eventservice__WEBPACK_IMPORTED_MODULE_30__["EventService"], _demo_service_eventservice__WEBPACK_IMPORTED_MODULE_30__["EventService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_iconservice__WEBPACK_IMPORTED_MODULE_31__["IconService"], _demo_service_iconservice__WEBPACK_IMPORTED_MODULE_31__["IconService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_nodeservice__WEBPACK_IMPORTED_MODULE_32__["NodeService"], _demo_service_nodeservice__WEBPACK_IMPORTED_MODULE_32__["NodeService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_photoservice__WEBPACK_IMPORTED_MODULE_33__["PhotoService"], _demo_service_photoservice__WEBPACK_IMPORTED_MODULE_33__["PhotoService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _demo_service_productservice__WEBPACK_IMPORTED_MODULE_34__["ProductService"], _demo_service_productservice__WEBPACK_IMPORTED_MODULE_34__["ProductService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _app_menu_service__WEBPACK_IMPORTED_MODULE_35__["MenuService"], _app_menu_service__WEBPACK_IMPORTED_MODULE_35__["MenuService"], [_angular_common_http__WEBPACK_IMPORTED_MODULE_26__["HttpClient"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_20__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_20__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_21__["ɵangular_packages_platform_browser_platform_browser_a"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgProbeToken"], function () {
           return [_angular_router__WEBPACK_IMPORTED_MODULE_25__["ɵangular_packages_router_router_b"]()];
         }, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_router__WEBPACK_IMPORTED_MODULE_25__["ɵangular_packages_router_router_h"], _angular_router__WEBPACK_IMPORTED_MODULE_25__["ɵangular_packages_router_router_h"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_core__WEBPACK_IMPORTED_MODULE_0__["APP_INITIALIZER"], function (p0_0, p1_0) {
           return [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_21__["ɵangular_packages_platform_browser_platform_browser_m"](p0_0), _angular_router__WEBPACK_IMPORTED_MODULE_25__["ɵangular_packages_router_router_i"](p1_0)];
@@ -3961,7 +4031,13 @@
       /* harmony import */
 
 
-      var _app_sidebar_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      var _app_menu_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! ./app.menu.service */
+      "./src/app/app.menu.service.ts");
+      /* harmony import */
+
+
+      var _app_sidebar_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! ./app.sidebar.component */
       "./src/app/app.sidebar.component.ts");
       /**
@@ -4043,7 +4119,7 @@
           }
 
           return ad;
-        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](35, 0, null, null, 3, "app-sidebarTabContent", [], null, null, null, _app_sidebartabcontent_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_AppSidebartabcontentComponent_0"], _app_sidebartabcontent_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_AppSidebartabcontentComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](36, 49152, null, 0, _app_sidebartabcontent_component__WEBPACK_IMPORTED_MODULE_5__["AppSidebartabcontentComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](37, 0, null, 0, 1, "app-menu", [], null, null, null, _app_menu_component_ngfactory__WEBPACK_IMPORTED_MODULE_6__["View_AppMenuComponent_0"], _app_menu_component_ngfactory__WEBPACK_IMPORTED_MODULE_6__["RenderType_AppMenuComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](38, 114688, null, 0, _app_menu_component__WEBPACK_IMPORTED_MODULE_7__["AppMenuComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_8__["AppMainComponent"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](39, 0, null, null, 34, "div", [["class", "layout-tabmenu-content"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](40, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]], {
+        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](35, 0, null, null, 3, "app-sidebarTabContent", [], null, null, null, _app_sidebartabcontent_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_AppSidebartabcontentComponent_0"], _app_sidebartabcontent_component_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_AppSidebartabcontentComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](36, 49152, null, 0, _app_sidebartabcontent_component__WEBPACK_IMPORTED_MODULE_5__["AppSidebartabcontentComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](37, 0, null, 0, 1, "app-menu", [], null, null, null, _app_menu_component_ngfactory__WEBPACK_IMPORTED_MODULE_6__["View_AppMenuComponent_0"], _app_menu_component_ngfactory__WEBPACK_IMPORTED_MODULE_6__["RenderType_AppMenuComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](38, 114688, null, 0, _app_menu_component__WEBPACK_IMPORTED_MODULE_7__["AppMenuComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_8__["AppMainComponent"], _app_menu_service__WEBPACK_IMPORTED_MODULE_9__["MenuService"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](39, 0, null, null, 34, "div", [["class", "layout-tabmenu-content"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](40, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]], {
           klass: [0, "klass"],
           ngClass: [1, "ngClass"]
         }, null), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵpod"](41, {
@@ -4103,10 +4179,10 @@
       }
 
       function View_AppSideBarComponent_Host_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "app-sidebar", [], null, null, null, View_AppSideBarComponent_0, RenderType_AppSideBarComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _app_sidebar_component__WEBPACK_IMPORTED_MODULE_9__["AppSideBarComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_8__["AppMainComponent"]], null, null)], null, null);
+        return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "app-sidebar", [], null, null, null, View_AppSideBarComponent_0, RenderType_AppSideBarComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _app_sidebar_component__WEBPACK_IMPORTED_MODULE_10__["AppSideBarComponent"], [_app_main_component__WEBPACK_IMPORTED_MODULE_8__["AppMainComponent"]], null, null)], null, null);
       }
 
-      var AppSideBarComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("app-sidebar", _app_sidebar_component__WEBPACK_IMPORTED_MODULE_9__["AppSideBarComponent"], View_AppSideBarComponent_Host_0, {}, {}, []);
+      var AppSideBarComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("app-sidebar", _app_sidebar_component__WEBPACK_IMPORTED_MODULE_10__["AppSideBarComponent"], View_AppSideBarComponent_Host_0, {}, {}, []);
       /***/
 
     },
@@ -4634,11 +4710,11 @@
         _createClass(IconService, [{
           key: "getIcons",
           value: function getIcons() {
-            var _this4 = this;
+            var _this5 = this;
 
             return this.http.get(this.apiUrl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(function (response) {
-              _this4.icons = response.icons;
-              return _this4.icons;
+              _this5.icons = response.icons;
+              return _this5.icons;
             }));
           }
         }]);
@@ -5909,13 +5985,13 @@
         _createClass(DashboardDemoComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this5 = this;
+            var _this6 = this;
 
             this.productService.getProducts().then(function (data) {
-              return _this5.products = data;
+              return _this6.products = data;
             });
             this.eventService.getEvents().then(function (events) {
-              _this5.events = events;
+              _this6.events = events;
             });
             this.cities = [];
             this.cities.push({
@@ -8091,13 +8167,13 @@
         _createClass(MiscDemoComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this6 = this;
+            var _this7 = this;
 
             var interval = setInterval(function () {
-              _this6.value = _this6.value + Math.floor(Math.random() * 10) + 1;
+              _this7.value = _this7.value + Math.floor(Math.random() * 10) + 1;
 
-              if (_this6.value >= 100) {
-                _this6.value = 100;
+              if (_this7.value >= 100) {
+                _this7.value = 100;
                 clearInterval(interval);
               }
             }, 2000);
@@ -8944,10 +9020,10 @@
         _createClass(OverlaysDemoComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this7 = this;
+            var _this8 = this;
 
             this.productService.getProductsSmall().then(function (products) {
-              return _this7.products = products;
+              return _this8.products = products;
             });
             this.images = [];
             this.images.push({
@@ -10057,7 +10133,8 @@
 
       var environment = {
         production: false,
-        api: "http://mazenebada-001-site1.itempurl.com/api/v1"
+        api: "http://mazenebada-001-site1.itempurl.com/api/v1",
+        accountApi: "http://mazenebada-001-site1.itempurl.com/api/Account"
       };
       /***/
     },

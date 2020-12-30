@@ -70,25 +70,19 @@
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! @angular/common */
-      "./node_modules/@angular/common/fesm2015/common.js");
-      /* harmony import */
-
-
-      var _address_info_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _address_info_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! ./address-info.component */
       "./src/app/modules/order-management/address-info/address-info.component.ts");
       /* harmony import */
 
 
-      var _services_order_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _services_order_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! ../services/order.service */
       "./src/app/modules/order-management/services/order.service.ts");
       /* harmony import */
 
 
-      var primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! primeng/dynamicdialog */
       "./node_modules/primeng/fesm2015/primeng-dynamicdialog.js");
       /**
@@ -108,49 +102,49 @@
       });
 
       function View_AddressInfoComponent_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 42, "table", [["class", "table"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 41, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["full name :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["address1 :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](12, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["address2 :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](17, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["city :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](22, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["country :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](27, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["phone :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](32, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](33, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["postCode :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](36, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](37, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, null, null, 5, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](39, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["created :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](41, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](42, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](43, 1)], null, function (_ck, _v) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 41, "table", [["class", "table"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 40, "tbody", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["full name :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](6, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["address1 :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](11, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["address2 :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["city :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](21, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["country :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](26, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["phone :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](31, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](33, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["postCode :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](35, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](36, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](37, 0, null, null, 4, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["created :"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](40, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](41, null, ["", ""]))], null, function (_ck, _v) {
           var _co = _v.component;
-          var currVal_0 = _co.addressInfo.fullName ? _co.addressInfo.fullName : "FullName";
+          var currVal_0 = (_co.addressInfo == null ? null : _co.addressInfo.fullName) ? _co.addressInfo.fullName : "FullName";
 
-          _ck(_v, 7, 0, currVal_0);
+          _ck(_v, 6, 0, currVal_0);
 
-          var currVal_1 = _co.addressInfo.address1 ? _co.addressInfo.address1 : "Address 1";
+          var currVal_1 = (_co.addressInfo == null ? null : _co.addressInfo.address1) ? _co.addressInfo.address1 : "Address 1";
 
-          _ck(_v, 12, 0, currVal_1);
+          _ck(_v, 11, 0, currVal_1);
 
-          var currVal_2 = _co.addressInfo.address2 ? _co.addressInfo.address2 : "Address 2";
+          var currVal_2 = (_co.addressInfo == null ? null : _co.addressInfo.address2) ? _co.addressInfo.address2 : "Address 2";
 
-          _ck(_v, 17, 0, currVal_2);
+          _ck(_v, 16, 0, currVal_2);
 
-          var currVal_3 = _co.addressInfo.city ? _co.addressInfo.city : "City";
+          var currVal_3 = (_co.addressInfo == null ? null : _co.addressInfo.city) ? _co.addressInfo.city : "City";
 
-          _ck(_v, 22, 0, currVal_3);
+          _ck(_v, 21, 0, currVal_3);
 
-          var currVal_4 = _co.addressInfo.country ? _co.addressInfo.country : "Country";
+          var currVal_4 = (_co.addressInfo == null ? null : _co.addressInfo.country) ? _co.addressInfo.country : "Country";
 
-          _ck(_v, 27, 0, currVal_4);
+          _ck(_v, 26, 0, currVal_4);
 
-          var currVal_5 = _co.addressInfo.phone ? _co.addressInfo.phone : "Phone";
+          var currVal_5 = (_co.addressInfo == null ? null : _co.addressInfo.phone) ? _co.addressInfo.phone : "Phone";
 
-          _ck(_v, 32, 0, currVal_5);
+          _ck(_v, 31, 0, currVal_5);
 
-          var currVal_6 = _co.addressInfo.postCode ? _co.addressInfo.postCode : "PostCode";
+          var currVal_6 = (_co.addressInfo == null ? null : _co.addressInfo.postCode) ? _co.addressInfo.postCode : "PostCode";
 
-          _ck(_v, 37, 0, currVal_6);
+          _ck(_v, 36, 0, currVal_6);
 
-          var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 42, 0, _ck(_v, 43, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 0), _co.addressInfo.created ? _co.addressInfo.created : "Date"));
+          var currVal_7 = (_co.addressInfo == null ? null : _co.addressInfo.created) ? _co.addressInfo.created : "date";
 
-          _ck(_v, 42, 0, currVal_7);
+          _ck(_v, 41, 0, currVal_7);
         });
       }
 
       function View_AddressInfoComponent_Host_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-address-info", [], null, null, null, View_AddressInfoComponent_0, RenderType_AddressInfoComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _address_info_component__WEBPACK_IMPORTED_MODULE_3__["AddressInfoComponent"], [_services_order_service__WEBPACK_IMPORTED_MODULE_4__["OrderService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_5__["DynamicDialogRef"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_5__["DynamicDialogConfig"]], null, null)], function (_ck, _v) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "app-address-info", [], null, null, null, View_AddressInfoComponent_0, RenderType_AddressInfoComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 114688, null, 0, _address_info_component__WEBPACK_IMPORTED_MODULE_2__["AddressInfoComponent"], [_services_order_service__WEBPACK_IMPORTED_MODULE_3__["OrderService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_4__["DynamicDialogRef"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_4__["DynamicDialogConfig"]], null, null)], function (_ck, _v) {
           _ck(_v, 1, 0);
         }, null);
       }
 
-      var AddressInfoComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-address-info", _address_info_component__WEBPACK_IMPORTED_MODULE_3__["AddressInfoComponent"], View_AddressInfoComponent_Host_0, {}, {}, []);
+      var AddressInfoComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("app-address-info", _address_info_component__WEBPACK_IMPORTED_MODULE_2__["AddressInfoComponent"], View_AddressInfoComponent_Host_0, {}, {}, []);
       /***/
 
     },
@@ -946,9 +940,9 @@
       }
 
       function View_OrderRequestComponent_4(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 18, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 19, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           value: [0, "value"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](5, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](5, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" pi-tag "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -958,7 +952,9 @@
           }
 
           return ad;
-        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "a", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Link"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](11, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+          icon: [0, "icon"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -968,7 +964,9 @@
           }
 
           return ad;
-        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 1, "a", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Link"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](15, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_5)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](18, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+          icon: [0, "icon"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_5)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](19, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
           ngForOf: [0, "ngForOf"]
         }, null)], function (_ck, _v) {
           var _co = _v.component;
@@ -976,9 +974,17 @@
 
           _ck(_v, 3, 0, currVal_0);
 
-          var currVal_4 = _co.statuses;
+          var currVal_3 = "pi pi-tag";
 
-          _ck(_v, 18, 0, currVal_4);
+          _ck(_v, 11, 0, currVal_3);
+
+          var currVal_4 = "pi pi-tag";
+
+          _ck(_v, 14, 0, currVal_4);
+
+          var currVal_6 = _co.statuses;
+
+          _ck(_v, 19, 0, currVal_6);
         }, function (_ck, _v) {
           var currVal_1 = _v.context.$implicit.id;
 
@@ -988,9 +994,9 @@
 
           _ck(_v, 7, 0, currVal_2);
 
-          var currVal_3 = _v.context.$implicit.orderNumber;
+          var currVal_5 = _v.context.$implicit.orderNumber;
 
-          _ck(_v, 15, 0, currVal_3);
+          _ck(_v, 16, 0, currVal_5);
         });
       }
 
