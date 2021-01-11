@@ -562,33 +562,33 @@
       /* harmony import */
 
 
-      var _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var primeng_api__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! primeng/api */
+      "./node_modules/primeng/fesm2015/primeng-api.js");
+      /* harmony import */
+
+
+      var _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! ../../../../../node_modules/primeng/paginator/primeng-paginator.ngfactory */
       "./node_modules/primeng/paginator/primeng-paginator.ngfactory.js");
       /* harmony import */
 
 
-      var primeng_paginator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      var primeng_paginator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! primeng/paginator */
       "./node_modules/primeng/fesm2015/primeng-paginator.js");
       /* harmony import */
 
 
-      var _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      var _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! ../../../../../node_modules/primeng/toast/primeng-toast.ngfactory */
       "./node_modules/primeng/toast/primeng-toast.ngfactory.js");
       /* harmony import */
 
 
-      var primeng_toast__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      var primeng_toast__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! primeng/toast */
       "./node_modules/primeng/fesm2015/primeng-toast.js");
-      /* harmony import */
-
-
-      var primeng_api__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-      /*! primeng/api */
-      "./node_modules/primeng/fesm2015/primeng-api.js");
       /* harmony import */
 
 
@@ -666,7 +666,7 @@
           var ad = true;
 
           if ("input" === en) {
-            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent, 32).filterGlobal($event.target.value, "contains") !== false;
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent, 37).filterGlobal($event.target.value, "contains") !== false;
             ad = pd_0 && ad;
           }
 
@@ -675,7 +675,7 @@
       }
 
       function View_OrderRequestComponent_3(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 33, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "th", [["style", "width: 3rem"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableHeaderCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableHeaderCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableHeaderCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableHeaderCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 4, "th", [["class", "text-capitalize"], ["pSortableColumn", "id"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 34, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "th", [["style", "width: 3rem"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableHeaderCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableHeaderCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableHeaderCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableHeaderCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 4, "th", [["class", "text-capitalize"], ["pSortableColumn", "id"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
           var ad = true;
 
           if ("click" === en) {
@@ -783,7 +783,7 @@
           field: [0, "field"]
         }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" status "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "p-sortIcon", [["field", "status"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](33, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           field: [0, "field"]
-        }, null)], function (_ck, _v) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 0, "th", [["class", "text-capitalize p-text-center"]], null, null, null, null, null))], function (_ck, _v) {
           _ck(_v, 3, 0);
 
           var currVal_5 = "id";
@@ -940,9 +940,22 @@
       }
 
       function View_OrderRequestComponent_4(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 19, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 22, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "p-tableCheckbox", [], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_TableCheckbox_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_TableCheckbox"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableCheckbox"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           value: [0, "value"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](5, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" pi-tag "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 3, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 2, "button", [["class", "p-button-text p-button-rounded p-button-plain"], ["pButton", ""], ["pRipple", ""], ["type", "button"]], null, [[null, "click"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](6, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+          icon: [0, "icon"]
+        }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 16384, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["RowToggler"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          data: [0, "data"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](9, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](11, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -952,9 +965,9 @@
           }
 
           return ad;
-        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](11, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           icon: [0, "icon"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -964,9 +977,9 @@
           }
 
           return ad;
-        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "a", [["icon", "pi pi-tag"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](17, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           icon: [0, "icon"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_5)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](19, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](19, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_5)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](22, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
           ngForOf: [0, "ngForOf"]
         }, null)], function (_ck, _v) {
           var _co = _v.component;
@@ -974,70 +987,373 @@
 
           _ck(_v, 3, 0, currVal_0);
 
-          var currVal_3 = "pi pi-tag";
+          var currVal_1 = _v.context.expanded ? "pi pi-chevron-down" : "pi pi-chevron-right";
 
-          _ck(_v, 11, 0, currVal_3);
+          _ck(_v, 6, 0, currVal_1);
 
-          var currVal_4 = "pi pi-tag";
-
-          _ck(_v, 14, 0, currVal_4);
-
-          var currVal_6 = _co.statuses;
-
-          _ck(_v, 19, 0, currVal_6);
-        }, function (_ck, _v) {
-          var currVal_1 = _v.context.$implicit.id;
-
-          _ck(_v, 5, 0, currVal_1);
-
-          var currVal_2 = _v.context.$implicit.userEmail ? _v.context.$implicit.userEmail : "userEmail";
+          var currVal_2 = _v.context.$implicit;
 
           _ck(_v, 7, 0, currVal_2);
 
-          var currVal_5 = _v.context.$implicit.orderNumber;
+          var currVal_5 = "pi pi-tag";
 
-          _ck(_v, 16, 0, currVal_5);
+          _ck(_v, 14, 0, currVal_5);
+
+          var currVal_6 = "pi pi-tag";
+
+          _ck(_v, 17, 0, currVal_6);
+
+          var currVal_8 = _co.statuses;
+
+          _ck(_v, 22, 0, currVal_8);
+        }, function (_ck, _v) {
+          var currVal_3 = _v.context.$implicit.id;
+
+          _ck(_v, 9, 0, currVal_3);
+
+          var currVal_4 = _v.context.$implicit.userEmail ? _v.context.$implicit.userEmail : "userEmail";
+
+          _ck(_v, 11, 0, currVal_4);
+
+          var currVal_7 = _v.context.$implicit.orderNumber;
+
+          _ck(_v, 19, 0, currVal_7);
         });
       }
 
+      function View_OrderRequestComponent_7(_l) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 32, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 4, "th", [["pSortableColumn", "id"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Id"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "p-sortIcon", [["field", "id"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 4, "th", [["pSortableColumn", "productName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Name"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "p-sortIcon", [["field", "productName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 4, "th", [["pSortableColumn", "categoryName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Category"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 1, "p-sortIcon", [["field", "categoryName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](15, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Image"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 4, "th", [["pSortableColumn", "productPrice"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](19, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Price"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 1, "p-sortIcon", [["field", "productPrice"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](22, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 4, "th", [["pSortableColumn", "productDiscountPrice"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](24, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["DiscountPrice"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 1, "p-sortIcon", [["field", "productDiscountPrice"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](27, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 4, "th", [["pSortableColumn", "quantity"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+          var ad = true;
+
+          if ("click" === en) {
+            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).onClick($event) !== false;
+            ad = pd_0 && ad;
+          }
+
+          if ("keydown.enter" === en) {
+            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).onEnterKey($event) !== false;
+            ad = pd_1 && ad;
+          }
+
+          return ad;
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](29, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
+          field: [0, "field"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["quantity"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 1, "p-sortIcon", [["field", "quantity"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](32, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          field: [0, "field"]
+        }, null)], function (_ck, _v) {
+          var currVal_5 = "id";
+
+          _ck(_v, 2, 0, currVal_5);
+
+          var currVal_6 = "id";
+
+          _ck(_v, 5, 0, currVal_6);
+
+          var currVal_12 = "productName";
+
+          _ck(_v, 7, 0, currVal_12);
+
+          var currVal_13 = "productName";
+
+          _ck(_v, 10, 0, currVal_13);
+
+          var currVal_19 = "categoryName";
+
+          _ck(_v, 12, 0, currVal_19);
+
+          var currVal_20 = "categoryName";
+
+          _ck(_v, 15, 0, currVal_20);
+
+          var currVal_26 = "productPrice";
+
+          _ck(_v, 19, 0, currVal_26);
+
+          var currVal_27 = "productPrice";
+
+          _ck(_v, 22, 0, currVal_27);
+
+          var currVal_33 = "productDiscountPrice";
+
+          _ck(_v, 24, 0, currVal_33);
+
+          var currVal_34 = "productDiscountPrice";
+
+          _ck(_v, 27, 0, currVal_34);
+
+          var currVal_40 = "quantity";
+
+          _ck(_v, 29, 0, currVal_40);
+
+          var currVal_41 = "quantity";
+
+          _ck(_v, 32, 0, currVal_41);
+        }, function (_ck, _v) {
+          var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).isEnabled();
+
+          var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).sorted;
+
+          var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).isEnabled() ? "0" : null;
+          var currVal_3 = "columnheader";
+
+          var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).sortOrder;
+
+          _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4);
+
+          var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).isEnabled();
+
+          var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).sorted;
+
+          var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).isEnabled() ? "0" : null;
+          var currVal_10 = "columnheader";
+
+          var currVal_11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 7).sortOrder;
+
+          _ck(_v, 6, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11);
+
+          var currVal_14 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).isEnabled();
+
+          var currVal_15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).sorted;
+
+          var currVal_16 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).isEnabled() ? "0" : null;
+          var currVal_17 = "columnheader";
+
+          var currVal_18 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 12).sortOrder;
+
+          _ck(_v, 11, 0, currVal_14, currVal_15, currVal_16, currVal_17, currVal_18);
+
+          var currVal_21 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).isEnabled();
+
+          var currVal_22 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).sorted;
+
+          var currVal_23 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).isEnabled() ? "0" : null;
+          var currVal_24 = "columnheader";
+
+          var currVal_25 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 19).sortOrder;
+
+          _ck(_v, 18, 0, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25);
+
+          var currVal_28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).isEnabled();
+
+          var currVal_29 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).sorted;
+
+          var currVal_30 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).isEnabled() ? "0" : null;
+          var currVal_31 = "columnheader";
+
+          var currVal_32 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 24).sortOrder;
+
+          _ck(_v, 23, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32);
+
+          var currVal_35 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).isEnabled();
+
+          var currVal_36 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).sorted;
+
+          var currVal_37 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).isEnabled() ? "0" : null;
+          var currVal_38 = "columnheader";
+
+          var currVal_39 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).sortOrder;
+
+          _ck(_v, 28, 0, currVal_35, currVal_36, currVal_37, currVal_38, currVal_39);
+        });
+      }
+
+      function View_OrderRequestComponent_8(_l) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 16, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](2, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](4, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](6, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 0, "img", [["class", "p-shadow-4 image-place"], ["width", "80"]], [[8, "src", 4], [8, "alt", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](10, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](11, 2), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](13, null, ["", ""])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](14, 2), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](16, null, ["", ""]))], null, function (_ck, _v) {
+          var currVal_0 = _v.context.$implicit.id;
+
+          _ck(_v, 2, 0, currVal_0);
+
+          var currVal_1 = _v.context.$implicit.productName;
+
+          _ck(_v, 4, 0, currVal_1);
+
+          var currVal_2 = _v.context.$implicit.categoryName;
+
+          _ck(_v, 6, 0, currVal_2);
+
+          var currVal_3 = _v.context.$implicit.productImage ? "data:image/PNG;base64," + _v.context.$implicit.productImage : "../../../../../../assets/not-found.png";
+          var currVal_4 = _v.context.$implicit.productName;
+
+          _ck(_v, 8, 0, currVal_3, currVal_4);
+
+          var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 10, 0, _ck(_v, 11, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent.parent, 0), _v.context.$implicit.productPrice, "EUR"));
+
+          _ck(_v, 10, 0, currVal_5);
+
+          var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 13, 0, _ck(_v, 14, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent.parent, 0), _v.context.$implicit.productDiscountPrice, "EUR"));
+
+          _ck(_v, 13, 0, currVal_6);
+
+          var currVal_7 = _v.context.$implicit.quantity;
+
+          _ck(_v, 16, 0, currVal_7);
+        });
+      }
+
+      function View_OrderRequestComponent_9(_l) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 2, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "td", [["colspan", "6"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["There are no orderItems for this order yet."]))], null, null);
+      }
+
       function View_OrderRequestComponent_6(_l) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 12, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 11, "td", [["colspan", "9"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 10, "div", [["class", "p-p-3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 9, "p-table", [["dataKey", "Id"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_Table_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_Table"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 6012928, null, 1, primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+          dataKey: [0, "dataKey"],
+          value: [1, "value"]
+        }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 4, {
+          templates: 1
+        }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_7)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](8, 16384, [[4, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+          name: [0, "name"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_8)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 16384, [[4, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+          name: [0, "name"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_9)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 16384, [[4, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+          name: [0, "name"]
+        }, null)], function (_ck, _v) {
+          var currVal_0 = "Id";
+          var currVal_1 = _v.context.$implicit.orderItems;
+
+          _ck(_v, 5, 0, currVal_0, currVal_1);
+
+          var currVal_2 = "header";
+
+          _ck(_v, 8, 0, currVal_2);
+
+          var currVal_3 = "body";
+
+          _ck(_v, 10, 0, currVal_3);
+
+          var currVal_4 = "emptymessage";
+
+          _ck(_v, 12, 0, currVal_4);
+        }, null);
+      }
+
+      function View_OrderRequestComponent_10(_l) {
         return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "p-paginator", [], null, [[null, "onPageChange"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
           if ("onPageChange" === en) {
-            var pd_0 = _co.loadMoreListRequestData($event) !== false;
+            var pd_0 = _co.loadMoreListOrdrData($event) !== false;
             ad = pd_0 && ad;
           }
 
           return ad;
-        }, _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_6__["View_Paginator_0"], _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_6__["RenderType_Paginator"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 638976, null, 0, primeng_paginator__WEBPACK_IMPORTED_MODULE_7__["Paginator"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_7__["View_Paginator_0"], _node_modules_primeng_paginator_primeng_paginator_ngfactory__WEBPACK_IMPORTED_MODULE_7__["RenderType_Paginator"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 638976, null, 0, primeng_paginator__WEBPACK_IMPORTED_MODULE_8__["Paginator"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           totalRecords: [0, "totalRecords"],
           rows: [1, "rows"]
         }, {
           onPageChange: "onPageChange"
         }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "div", [["class", "p-d-flex p-ai-center p-jc-between"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](3, null, [" In total there are ", " items. "]))], function (_ck, _v) {
           var _co = _v.component;
-          var currVal_0 = _co.ListRequestCount;
+          var currVal_0 = _co.ListOrderCount;
           var currVal_1 = 10;
 
           _ck(_v, 1, 0, currVal_0, currVal_1);
         }, function (_ck, _v) {
           var _co = _v.component;
-          var currVal_2 = _co.ListRequestCount ? _co.ListRequestCount : 0;
+          var currVal_2 = _co.ListOrderCount ? _co.ListOrderCount : 0;
 
           _ck(_v, 3, 0, currVal_2);
         });
       }
 
       function View_OrderRequestComponent_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 2, "p-toast", [], null, null, null, _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_8__["View_Toast_0"], _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_8__["RenderType_Toast"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 1294336, null, 1, primeng_toast__WEBPACK_IMPORTED_MODULE_9__["Toast"], [primeng_api__WEBPACK_IMPORTED_MODULE_10__["MessageService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 1, {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["CurrencyPipe"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["DEFAULT_CURRENCY_CODE"]]), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "p-toast", [], null, null, null, _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_9__["View_Toast_0"], _node_modules_primeng_toast_primeng_toast_ngfactory__WEBPACK_IMPORTED_MODULE_9__["RenderType_Toast"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 1294336, null, 1, primeng_toast__WEBPACK_IMPORTED_MODULE_10__["Toast"], [primeng_api__WEBPACK_IMPORTED_MODULE_6__["MessageService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 1, {
           templates: 1
-        }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 39, "div", [["class", "card"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 25, "p-toolbar", [["styleClass", "p-mb-4"]], null, null, null, _node_modules_primeng_toolbar_primeng_toolbar_ngfactory__WEBPACK_IMPORTED_MODULE_11__["View_Toolbar_0"], _node_modules_primeng_toolbar_primeng_toolbar_ngfactory__WEBPACK_IMPORTED_MODULE_11__["RenderType_Toolbar"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 1097728, null, 1, primeng_toolbar__WEBPACK_IMPORTED_MODULE_12__["Toolbar"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 50, "div", [["class", "ui-g"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 44, "div", [["class", "ui-g-12"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 43, "div", [["class", "card card-w-title"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Mobile Phones"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 25, "p-toolbar", [["styleClass", "p-mb-4"]], null, null, null, _node_modules_primeng_toolbar_primeng_toolbar_ngfactory__WEBPACK_IMPORTED_MODULE_11__["View_Toolbar_0"], _node_modules_primeng_toolbar_primeng_toolbar_ngfactory__WEBPACK_IMPORTED_MODULE_11__["RenderType_Toolbar"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 1097728, null, 1, primeng_toolbar__WEBPACK_IMPORTED_MODULE_12__["Toolbar"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           styleClass: [0, "styleClass"]
         }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 2, {
           templates: 1
-        }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, 0, 2, "div", [["class", "ui-toolbar-group-left"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "button", [["class", "p-button-danger"], ["icon", "pi pi-trash"], ["label", "Delete"], ["pButton", ""]], [[8, "disabled", 0]], [[null, "click"]], function (_v, en, $event) {
+        }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, 0, 2, "div", [["class", "ui-toolbar-group-left"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "button", [["class", "p-button-danger"], ["icon", "pi pi-trash"], ["label", "Delete"], ["pButton", ""]], [[8, "disabled", 0]], [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -1047,16 +1363,16 @@
           }
 
           return ad;
-        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](9, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           label: [0, "label"],
           icon: [1, "icon"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, 0, 19, "div", [["class", "ui-toolbar-group-right"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 1, "h4", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Order statuses"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](15, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](15, 0, null, 0, 19, "div", [["class", "ui-toolbar-group-right"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 1, "h4", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Order statuses"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_OrderRequestComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](20, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
           ngForOf: [0, "ngForOf"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 13, "div", [["class", "p-d-flex p-mt-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](17, 0, null, null, 12, "div", [["class", "p-d-flex p-justify-between p-align-baseline p-mb-2 p-mr-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](18, 0, null, null, 5, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 1, "div", [["class", "p-d-flex p-mr-2 text-capitalize"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["current status"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 1, "button", [["class", "p-button p-button-rounded p-mr-2 p-button-sm p-button-info"], ["icon", "pi pi-circle-off"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](23, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 13, "div", [["class", "p-d-flex p-mt-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 12, "div", [["class", "p-d-flex p-justify-between p-align-baseline p-mb-2 p-mr-2"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](23, 0, null, null, 5, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 1, "div", [["class", "p-d-flex p-mr-2 text-capitalize"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["current status"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 1, "button", [["class", "p-button p-button-rounded p-mr-2 p-button-sm p-button-info"], ["icon", "pi pi-circle-off"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](28, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           icon: [0, "icon"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 5, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](25, 0, null, null, 1, "div", [["class", "p-d-flex p-mr-2 text-capitalize"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["done status"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](28, 0, null, null, 1, "button", [["class", "p-button p-button-rounded p-mr-2 p-button-sm p-button-secondary"], ["icon", "pi pi-circle-off"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](29, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 5, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 1, "div", [["class", "p-d-flex p-mr-2 text-capitalize"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["done status"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 2, "div", [["class", "p-d-flex"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](33, 0, null, null, 1, "button", [["class", "p-button p-button-rounded p-mr-2 p-button-sm p-button-secondary"], ["icon", "pi pi-circle-off"], ["pButton", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](34, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_2__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           icon: [0, "icon"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](30, 0, null, null, 12, "p-table", [["currentPageReportTemplate", "Showing {first} to {last} of {totalRecords} entries"], ["dataKey", "id"]], null, [[null, "selectionChange"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](35, 0, null, null, 14, "p-table", [["currentPageReportTemplate", "Showing {first} to {last} of {totalRecords} entries"], ["dataKey", "id"]], null, [[null, "selectionChange"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -1066,7 +1382,7 @@
           }
 
           return ad;
-        }, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_Table_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_Table"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](32, 6012928, [["dt", 4]], 1, primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["View_Table_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_3__["RenderType_Table"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](37, 6012928, [["dt", 4]], 1, primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], primeng_table__WEBPACK_IMPORTED_MODULE_4__["TableService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           paginator: [0, "paginator"],
           currentPageReportTemplate: [1, "currentPageReportTemplate"],
           showCurrentPageReport: [2, "showCurrentPageReport"],
@@ -1079,90 +1395,96 @@
           selectionChange: "selectionChange"
         }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 3, {
           templates: 1
-        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpad"](34, 6), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](36, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_10__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpad"](39, 6), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](41, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
           name: [0, "name"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_3)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](38, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_10__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_3)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](43, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
           name: [0, "name"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_4)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](40, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_10__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_4)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](45, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
           name: [0, "name"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_6)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](42, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_10__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_6)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](47, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
           name: [0, "name"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](43, 0, null, null, 4, "p-confirmDialog", [], null, null, null, _node_modules_primeng_confirmdialog_primeng_confirmdialog_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_ConfirmDialog_0"], _node_modules_primeng_confirmdialog_primeng_confirmdialog_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_ConfirmDialog"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](44, 1228800, null, 2, primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_14__["ConfirmDialog"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], primeng_api__WEBPACK_IMPORTED_MODULE_10__["ConfirmationService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](0, null, null, 1, null, View_OrderRequestComponent_10)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](49, 16384, [[3, 4]], 0, primeng_api__WEBPACK_IMPORTED_MODULE_6__["PrimeTemplate"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"]], {
+          name: [0, "name"]
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](50, 0, null, null, 4, "p-confirmDialog", [], null, null, null, _node_modules_primeng_confirmdialog_primeng_confirmdialog_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_ConfirmDialog_0"], _node_modules_primeng_confirmdialog_primeng_confirmdialog_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_ConfirmDialog"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](51, 1228800, null, 2, primeng_confirmdialog__WEBPACK_IMPORTED_MODULE_14__["ConfirmDialog"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], primeng_api__WEBPACK_IMPORTED_MODULE_6__["ConfirmationService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           style: [0, "style"]
-        }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 4, {
+        }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 5, {
           footer: 0
-        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 5, {
+        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵqud"](603979776, 6, {
           templates: 1
-        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpod"](47, {
+        }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpod"](54, {
           width: 0
         })], function (_ck, _v) {
           var _co = _v.component;
 
-          _ck(_v, 1, 0);
+          _ck(_v, 2, 0);
 
           var currVal_0 = "p-mb-4";
 
-          _ck(_v, 5, 0, currVal_0);
+          _ck(_v, 10, 0, currVal_0);
 
           var currVal_2 = "Delete";
           var currVal_3 = "pi pi-trash";
 
-          _ck(_v, 9, 0, currVal_2, currVal_3);
+          _ck(_v, 14, 0, currVal_2, currVal_3);
 
           var currVal_4 = _co.statuses;
 
-          _ck(_v, 15, 0, currVal_4);
+          _ck(_v, 20, 0, currVal_4);
 
           var currVal_5 = "pi pi-circle-off";
 
-          _ck(_v, 23, 0, currVal_5);
+          _ck(_v, 28, 0, currVal_5);
 
           var currVal_6 = "pi pi-circle-off";
 
-          _ck(_v, 29, 0, currVal_6);
+          _ck(_v, 34, 0, currVal_6);
 
           var currVal_7 = false;
           var currVal_8 = "Showing {first} to {last} of {totalRecords} entries";
           var currVal_9 = true;
           var currVal_10 = "id";
 
-          var currVal_11 = _ck(_v, 34, 0, "id", "userEmail", "invoiceAddressId", "deliveryAddressId", "orderNumber", "status");
+          var currVal_11 = _ck(_v, 39, 0, "id", "userEmail", "invoiceAddressId", "deliveryAddressId", "orderNumber", "status");
 
           var currVal_12 = true;
           var currVal_13 = _co.orderList;
           var currVal_14 = _co.selecteditems;
 
-          _ck(_v, 32, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14);
+          _ck(_v, 37, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14);
 
           var currVal_15 = "caption";
 
-          _ck(_v, 36, 0, currVal_15);
+          _ck(_v, 41, 0, currVal_15);
 
           var currVal_16 = "header";
 
-          _ck(_v, 38, 0, currVal_16);
+          _ck(_v, 43, 0, currVal_16);
 
           var currVal_17 = "body";
 
-          _ck(_v, 40, 0, currVal_17);
+          _ck(_v, 45, 0, currVal_17);
 
-          var currVal_18 = "summary";
+          var currVal_18 = "rowexpansion";
 
-          _ck(_v, 42, 0, currVal_18);
+          _ck(_v, 47, 0, currVal_18);
 
-          var currVal_19 = _ck(_v, 47, 0, "450px");
+          var currVal_19 = "summary";
 
-          _ck(_v, 44, 0, currVal_19);
+          _ck(_v, 49, 0, currVal_19);
+
+          var currVal_20 = _ck(_v, 54, 0, "450px");
+
+          _ck(_v, 51, 0, currVal_20);
         }, function (_ck, _v) {
           var _co = _v.component;
           var currVal_1 = !_co.selecteditems || !_co.selecteditems.length;
 
-          _ck(_v, 8, 0, currVal_1);
+          _ck(_v, 13, 0, currVal_1);
         });
       }
 
       function View_OrderRequestComponent_Host_0(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "app-order-request", [], null, null, null, View_OrderRequestComponent_0, RenderType_OrderRequestComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_api__WEBPACK_IMPORTED_MODULE_10__["MessageService"], primeng_api__WEBPACK_IMPORTED_MODULE_10__["MessageService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_api__WEBPACK_IMPORTED_MODULE_10__["ConfirmationService"], primeng_api__WEBPACK_IMPORTED_MODULE_10__["ConfirmationService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](4, 114688, null, 0, _order_request_component__WEBPACK_IMPORTED_MODULE_16__["OrderRequestComponent"], [primeng_api__WEBPACK_IMPORTED_MODULE_10__["MessageService"], primeng_api__WEBPACK_IMPORTED_MODULE_10__["ConfirmationService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], _services_order_service__WEBPACK_IMPORTED_MODULE_17__["OrderService"]], null, null)], function (_ck, _v) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "app-order-request", [], null, null, null, View_OrderRequestComponent_0, RenderType_OrderRequestComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_api__WEBPACK_IMPORTED_MODULE_6__["MessageService"], primeng_api__WEBPACK_IMPORTED_MODULE_6__["MessageService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_api__WEBPACK_IMPORTED_MODULE_6__["ConfirmationService"], primeng_api__WEBPACK_IMPORTED_MODULE_6__["ConfirmationService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](512, null, primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](4, 114688, null, 0, _order_request_component__WEBPACK_IMPORTED_MODULE_16__["OrderRequestComponent"], [primeng_api__WEBPACK_IMPORTED_MODULE_6__["MessageService"], primeng_api__WEBPACK_IMPORTED_MODULE_6__["ConfirmationService"], primeng_dynamicdialog__WEBPACK_IMPORTED_MODULE_15__["DialogService"], _services_order_service__WEBPACK_IMPORTED_MODULE_17__["OrderService"]], null, null)], function (_ck, _v) {
           _ck(_v, 4, 0);
         }, null);
       }
@@ -1278,12 +1600,12 @@
               pageNumber: this.pageNo
             }).subscribe(function (data) {
               _this2.orderList = data.data;
-              _this2.ListRequestCount = data.count;
+              _this2.ListOrderCount = data.count;
             });
           }
         }, {
-          key: "loadMoreListRequestData",
-          value: function loadMoreListRequestData(event) {
+          key: "loadMoreListOrdrData",
+          value: function loadMoreListOrdrData(event) {
             this.pageNo = event.page + 1;
             this.getListOrder();
           }

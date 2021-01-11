@@ -3603,7 +3603,7 @@
               required: true
             }, "problem"), new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("problemName", "Problem Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, true)]),
             // related to mobile phones
-            mobileBrand: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Mobile Brands", "mobileBrand", "MobileBrandOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
+            mobileBrand: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Mobile Brands", "mobileBrand", "MobileBrand", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
               required: true
             })]),
             category: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("categories", "category", "Category", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
@@ -3611,19 +3611,19 @@
             }), new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("description", "Description", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].textArea, false, false, {
               required: true
             })]),
-            colors: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Colors Options", "colors", "ColorOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("color", "Color", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
+            colors: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Colors Options", "colors", "MobileColor", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Color", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
               required: true
             })]),
-            storage: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Storage Options", "storage", "StorageOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("storage", "Storage", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
+            storage: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Storage Options", "storage", "MobileStorage", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Storage", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
               required: true
             })]),
-            connectivity: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Connectivity Options", "connectivity", "ConnectivityOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("connectivity", "Connectivity", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
+            connectivity: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Connectivity Options", "connectivity", "MobileConnectivity", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Connectivity", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
               required: true
             })]),
-            ram: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Ram Options", "ram", "RamOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("ram", "Ram", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputNumber, false, false, {
+            ram: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Ram Options", "ram", "MobileRam", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Ram", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputNumber, false, false, {
               required: true
             })]),
-            sim: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Sim Options", "sim", "SimCardOptions", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
+            sim: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Sim Options", "sim", "MobileSimCard", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {
               required: true
             })]),
             tag: new _models_LookupConfig_model__WEBPACK_IMPORTED_MODULE_1__["LookupConfig"]("Tags", "tag", "Tag", [new _models_LookupProperty_model__WEBPACK_IMPORTED_MODULE_2__["LookupProperty"]("name", "Name", _models_LookupPropertyType_enum__WEBPACK_IMPORTED_MODULE_3__["LookupPropertyTypeEnum"].inputText, false, false, {

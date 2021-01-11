@@ -195,7 +195,7 @@
       }
 
       function View_AdminListComponent_2(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 27, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 4, "th", [["pSortableColumn", "profile"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 22, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 4, "th", [["pSortableColumn", "userName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
           var ad = true;
 
           if ("click" === en) {
@@ -211,9 +211,9 @@
           return ad;
         }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Profile "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "p-sortIcon", [["field", "profile"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Username "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "p-sortIcon", [["field", "userName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 4, "th", [["pSortableColumn", "userName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 4, "th", [["pSortableColumn", "firstName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
           var ad = true;
 
           if ("click" === en) {
@@ -229,9 +229,9 @@
           return ad;
         }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](7, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Username "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "p-sortIcon", [["field", "userName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" First Name "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 1, "p-sortIcon", [["field", "firstName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](10, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 4, "th", [["pSortableColumn", "firstName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](11, 0, null, null, 4, "th", [["pSortableColumn", "lastName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
           var ad = true;
 
           if ("click" === en) {
@@ -247,9 +247,9 @@
           return ad;
         }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](12, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" First Name "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 1, "p-sortIcon", [["field", "firstName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](15, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Last Name "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](14, 0, null, null, 1, "p-sortIcon", [["field", "lastName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](15, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 4, "th", [["pSortableColumn", "lastName"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](16, 0, null, null, 4, "th", [["pSortableColumn", "email"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
           var ad = true;
 
           if ("click" === en) {
@@ -265,66 +265,40 @@
           return ad;
         }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](17, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Last Name "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 1, "p-sortIcon", [["field", "lastName"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](20, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Email "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](19, 0, null, null, 1, "p-sortIcon", [["field", "email"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](20, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
           field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 4, "th", [["pSortableColumn", "email"]], [[2, "p-sortable-column", null], [2, "p-highlight", null], [1, "tabindex", 0], [1, "role", 0], [1, "aria-sort", 0]], [[null, "click"], [null, "keydown.enter"]], function (_v, en, $event) {
-          var ad = true;
-
-          if ("click" === en) {
-            var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).onClick($event) !== false;
-            ad = pd_0 && ad;
-          }
-
-          if ("keydown.enter" === en) {
-            var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).onEnterKey($event) !== false;
-            ad = pd_1 && ad;
-          }
-
-          return ad;
-        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](22, 212992, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortableColumn"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"]], {
-          field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Email "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 1, "p-sortIcon", [["field", "email"]], null, null, null, _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_SortIcon_0"], _node_modules_primeng_table_primeng_table_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_SortIcon"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](25, 245760, null, 0, primeng_table__WEBPACK_IMPORTED_MODULE_4__["SortIcon"], [primeng_table__WEBPACK_IMPORTED_MODULE_4__["Table"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]], {
-          field: [0, "field"]
-        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](26, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Actions"]))], function (_ck, _v) {
-          var currVal_5 = "profile";
+        }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](21, 0, null, null, 1, "th", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Actions"]))], function (_ck, _v) {
+          var currVal_5 = "userName";
 
           _ck(_v, 2, 0, currVal_5);
 
-          var currVal_6 = "profile";
+          var currVal_6 = "userName";
 
           _ck(_v, 5, 0, currVal_6);
 
-          var currVal_12 = "userName";
+          var currVal_12 = "firstName";
 
           _ck(_v, 7, 0, currVal_12);
 
-          var currVal_13 = "userName";
+          var currVal_13 = "firstName";
 
           _ck(_v, 10, 0, currVal_13);
 
-          var currVal_19 = "firstName";
+          var currVal_19 = "lastName";
 
           _ck(_v, 12, 0, currVal_19);
 
-          var currVal_20 = "firstName";
+          var currVal_20 = "lastName";
 
           _ck(_v, 15, 0, currVal_20);
 
-          var currVal_26 = "lastName";
+          var currVal_26 = "email";
 
           _ck(_v, 17, 0, currVal_26);
 
-          var currVal_27 = "lastName";
+          var currVal_27 = "email";
 
           _ck(_v, 20, 0, currVal_27);
-
-          var currVal_33 = "email";
-
-          _ck(_v, 22, 0, currVal_33);
-
-          var currVal_34 = "email";
-
-          _ck(_v, 25, 0, currVal_34);
         }, function (_ck, _v) {
           var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 2).isEnabled();
 
@@ -369,22 +343,11 @@
           var currVal_25 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).sortOrder;
 
           _ck(_v, 16, 0, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25);
-
-          var currVal_28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).isEnabled();
-
-          var currVal_29 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).sorted;
-
-          var currVal_30 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).isEnabled() ? "0" : null;
-          var currVal_31 = "columnheader";
-
-          var currVal_32 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 22).sortOrder;
-
-          _ck(_v, 21, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32);
         });
       }
 
       function View_AdminListComponent_3(_l) {
-        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 14, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 2, "td", [["style", "cursor: pointer;"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](2, 0, null, null, 1, "a", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Profile"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](5, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](6, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](7, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](9, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](11, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](13, 0, null, null, 1, "button", [["class", "p-button p-button-warning  p-mr-2"], ["icon", "pi pi-trash"], ["pButton", ""]], null, [[null, "click"]], function (_v, en, $event) {
+        return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 11, "tr", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](2, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](3, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](4, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](5, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](6, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 1, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](8, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](9, 0, null, null, 2, "td", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 1, "button", [["class", "p-button p-button-warning  p-mr-2"], ["icon", "pi pi-trash"], ["pButton", ""]], null, [[null, "click"]], function (_v, en, $event) {
           var ad = true;
           var _co = _v.component;
 
@@ -394,28 +357,28 @@
           }
 
           return ad;
-        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](14, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_6__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](11, 4341760, null, 0, primeng_button__WEBPACK_IMPORTED_MODULE_6__["ButtonDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
           icon: [0, "icon"]
         }, null)], function (_ck, _v) {
           var currVal_4 = "pi pi-trash";
 
-          _ck(_v, 14, 0, currVal_4);
+          _ck(_v, 11, 0, currVal_4);
         }, function (_ck, _v) {
           var currVal_0 = _v.context.$implicit.userName;
 
-          _ck(_v, 5, 0, currVal_0);
+          _ck(_v, 2, 0, currVal_0);
 
           var currVal_1 = _v.context.$implicit.firstName;
 
-          _ck(_v, 7, 0, currVal_1);
+          _ck(_v, 4, 0, currVal_1);
 
           var currVal_2 = _v.context.$implicit.lastName;
 
-          _ck(_v, 9, 0, currVal_2);
+          _ck(_v, 6, 0, currVal_2);
 
           var currVal_3 = _v.context.$implicit.email;
 
-          _ck(_v, 11, 0, currVal_3);
+          _ck(_v, 8, 0, currVal_3);
         });
       }
 
